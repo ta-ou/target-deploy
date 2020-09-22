@@ -1,1 +1,0 @@
-web: gunicorn targetview.wsgi --log-file -
