@@ -26,6 +26,3 @@ class Comment(models.Model):
     def __str__(self):
         return self.author.username
 
-# class User(models.Model):
-#     username = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="targets")
-#     user_icon = 
