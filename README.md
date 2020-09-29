@@ -1,9 +1,9 @@
-#サービスの説明
-「Target Management」
+# サービスの説明
+「Target Management」  
 目標管理・共有アプリです。
 
-#URL
+# URL
 
-#使用技術
+# 使用技術
 
-#機能一覧
+# 機能一覧
