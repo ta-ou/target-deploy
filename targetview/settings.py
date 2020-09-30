@@ -77,12 +77,13 @@ WSGI_APPLICATION = 'targetview.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-default_dburl = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'targetview$targetview',
+        'USER': 'targetview',
+        'PASSWORD': 'targetdatabase',
+        'HOST': 'targetview.mysql.pythonanywhere-services.com',
     }
 }
 
