@@ -80,10 +80,11 @@ WSGI_APPLICATION = 'targetview.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'targetview$default',
-        'USER': 'targetview',
-        'PASSWORD': 'targetdatabase',
-        'HOST': 'targetview.mysql.pythonanywhere-services.com',
+        'NAME': 'target$default',
+        'USER': 'target',
+        'PASSWORD': 'database',
+        'HOST': 'target.mysql.pythonanywhere-services.com',
+        'PORT': '',
     }
 }
 
