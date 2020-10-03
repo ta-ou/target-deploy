@@ -1,6 +1,8 @@
 # サービスの説明
 「Target Management」  
-目標管理・共有アプリです。
+目標管理・共有アプリです。  
+自身の目標を細分化目標を管理します。  
+他のユーザーの目標をみれます。アドバイスをあげましょう。
 
 # URL
 http://target.pythonanywhere.com/
