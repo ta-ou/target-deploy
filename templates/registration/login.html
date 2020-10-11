@@ -1,6 +1,5 @@
 {% extends 'auth_layout.html' %} {% block auth %}
 <h1>ログイン</h1>
-<p class="lead text-muted">Target Management</p>
 <div class="login-form-container">
   <form method="POST">
     {% csrf_token %}
@@ -20,5 +19,10 @@
     Or
     <a href="{% url 'django_registration_register' %}">新規登録はこちらから</a>
   </p>
+</div>
+<div class="test-login">
+  <h2>簡単ログイン</h2>
+    <p>ユーザーネーム：test</p>
+    <p>パスワード：testuser</p>
 </div>
 {% endblock %}
