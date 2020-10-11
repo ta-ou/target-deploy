@@ -1,4 +1,8 @@
 {% extends 'auth_layout.html' %} {% block auth %}
+<div class="title mt-3">
+  <h1>Target Management</h1>
+  <p>自分の目標を管理・他者と共有することで、目標達成をサポートするサービスです。</p>
+</div>
 <h1>ログイン</h1>
 <div class="login-form-container">
   <form method="POST">
@@ -20,9 +24,9 @@
     <a href="{% url 'django_registration_register' %}">新規登録はこちらから</a>
   </p>
 </div>
-<div class="test-login">
-  <h2>簡単ログイン</h2>
-    <p>ユーザーネーム：test</p>
-    <p>パスワード：testuser</p>
+<div>
+  <p>以下のユーザーネーム、パスワードをご使用ください</p>
+  <p>ユーザーネーム：test</p>
+  <p>パスワード：testuser</p>
 </div>
 {% endblock %}
