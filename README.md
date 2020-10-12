@@ -9,6 +9,9 @@
   - 人から応援してもらえる  
   - アドバイス、コメントをもらえる
 
+<img width="1315" alt="Target Management Home" src="https://user-images.githubusercontent.com/62827304/95710332-a3ea6600-0c8a-11eb-9a03-0e62666f39b4.png">
+<img width="1079" alt="Target Management Target" src="https://user-images.githubusercontent.com/62827304/95710388-c67c7f00-0c8a-11eb-8149-16df05ea5de1.png">
+
 # URL
 http://target.pythonanywhere.com/
 
