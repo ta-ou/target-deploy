@@ -80,7 +80,7 @@
       </div>
       <br />
       <p v-if="error" class="muted mt-2 error">{{ error }}</p>
-      <button type="submit" class="btn btn-outline-dark">登録</button>
+      <button type="submit" class="btn btn-outline-dark ml-3">登録</button>
     </form>
   </div>
 </template>
