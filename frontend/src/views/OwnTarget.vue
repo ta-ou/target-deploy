@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div v-if="ownTargets.length !== 0">
-      <h1 class="owntarget-title">あなたの目標です。毎日進捗を管理しましょう。</h1>
+      <h1 class="owntarget-title mt-2 mb-2">あなたの目標です。毎日進捗を管理しましょう。</h1>
       <div
         v-for="target in ownTargets"
         :key="target.slug"
