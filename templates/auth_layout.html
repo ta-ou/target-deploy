@@ -1,5 +1,10 @@
 {% extends "base.html" %} {% block style %}
 <style>
+  @media screen and (max-width: 480px) {
+    #registration, #login {
+      width: 100%;
+    }
+  }
   html,
   body {
     height: 100%;
@@ -33,8 +38,6 @@
 </style>
 {% endblock %} {% block content %}
 <div class="outer-area">
-  <div class="auth-box text-center">
-    {% block auth %} {% endblock %}
-  </div>
+  <div class="auth-box text-center">{% block auth %} {% endblock %}</div>
 </div>
 {% endblock %}
